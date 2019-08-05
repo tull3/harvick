@@ -1,0 +1,8 @@
+ version: '2.1'
+
+services:
+  harvick:
+    image: harvick
+    build: .
+    ports:
+      - 80:80

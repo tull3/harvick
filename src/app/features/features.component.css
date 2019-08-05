@@ -1,0 +1,46 @@
+.t_hero_header {
+	color: #000000;
+	text-align: center;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+/*	letter-spacing: 4px;*/
+	font-size: xx-large;
+    font-weight: normal;
+}
+
+.t_hero {
+	
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 75px;
+	padding-bottom: 75px;
+}
+
+.t_tagline {
+	text-align: center;
+	color: #000000;
+	margin-top: 4px;
+	font-weight: lighter;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.t_banner {
+	border-bottom: 1px solid #E6BC54;
+	border-top: 1px solid #E6BC54;
+	border-left: 1px solid #E6BC54;
+	border-right: 1px solid #E6BC54;
+	border-radius: 15px;
+	width: 80%;
+	margin-right: 5%;
+	margin-left: 5%;
+	display: block;
+	background: rgba(0, 0, 0, 0.4);
+	overflow: hidden;
+}
+
+.t_banner_border {
+	align-content: center;
+}
