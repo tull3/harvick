@@ -7,7 +7,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "dockerize":"ng build && docker build -t docker.io/tull3/harvick:latest . && docker push docker.io/tull3/harvick:latest"
   },
   "private": true,
   "dependencies": {

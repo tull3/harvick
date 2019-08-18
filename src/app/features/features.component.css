@@ -11,7 +11,6 @@
 }
 
 .t_hero {
-	
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding-top: 75px;
@@ -24,7 +23,7 @@
 	margin-top: 4px;
 	font-weight: lighter;
 	text-transform: uppercase;
-	letter-spacing: 1px;
+	letter-spacing: 4px;
 }
 
 .t_banner {
@@ -33,14 +32,70 @@
 	border-left: 1px solid #E6BC54;
 	border-right: 1px solid #E6BC54;
 	border-radius: 15px;
-	width: 80%;
-	margin-right: 5%;
-	margin-left: 5%;
-	display: block;
+	margin-top: 10%;
+	height: auto;
 	background: rgba(0, 0, 0, 0.4);
-	overflow: hidden;
+	width: 100%;
+	align-content: center;
 }
 
 .t_banner_border {
 	align-content: center;
+}
+
+body {
+	font: 20px Montserrat, sans-serif;
+	line-height: 1.8;
+	color: #f5f6f7;
+}
+
+p {
+	font-size: 16px;
+}
+
+footer {
+	padding-top: 15px !important;
+	padding-bottom: 15px !important;
+}
+
+.margin {margin-bottom: 45px;}
+
+.bg-1 { 
+	/* background-color: #1abc9c; Green */
+	background-color: #2073A8;
+	color: #ffffff;
+}
+
+.bg-2 { 
+	background-color: #474e5d; /* Dark Blue */
+	color: #ffffff;
+}
+
+.bg-3 { 
+	background-color: #ffffff; /* White */
+	color: #555555;
+}
+
+.bg-4 { 
+	background-color: #2f2f2f; /* Black Gray */
+	color: #fff;
+}
+
+.container-fluid {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.navbar {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border: 0;
+	border-radius: 0;
+	margin-bottom: 0;
+	font-size: 12px;
+	letter-spacing: 5px;
+}
+
+.navbar-nav  li a:hover {
+	color: #1abc9c !important;
 }

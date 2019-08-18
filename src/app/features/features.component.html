@@ -1,28 +1,72 @@
 <div class="row">
   <div class="col">
     <div class="t_hero">
-      <h2 class="t_hero_header">Welcome</h2>
+      <!-- <h2 class="t_hero_header">Welcome</h2> -->
       <p class="t_tagline">Software Architecture | Data Analytics | Containerization</p>
     </div>
   </div>
 </div>
-<div class="row">
-  <div class="col">
-    <div class="t_banner_border">
-      <div class="t_banner">
-        <div class="btn-group btn-group-toggle" ngbRadioGroup name="radioBasic" [(ngModel)]="model">
-          <label ngbButtonLabel class="btn-primary">
-            <input ngbButton type="radio" [value]="1"> Front-End
-          </label>
-          <label ngbButtonLabel class="btn-primary">
-            <input ngbButton type="radio" value="middle"> Back-End
-          </label>
-          <label ngbButtonLabel class="btn-primary">
-            <input ngbButton type="radio" [value]="false"> Analytics
-          </label>
-          <p>TESTING</p>
-        </div>
+<!-- <div class="row justify-content-center align-content-center">
+  <div class="col col-lg-auto"></div>
+  <div class="col-sm-4">
+    <div class="t_banner">
+      <div class="btn-group btn-group-toggle" ngbRadioGroup name="radioBasic" [(ngModel)]="model">
+        <label ngbButtonLabel class="btn-primary">
+          <input ngbButton type="radio" [value]="1"> Front-End
+        </label>
+        <label ngbButtonLabel class="btn-primary">
+          <input ngbButton type="radio" value="middle"> Back-End
+        </label>
+        <label ngbButtonLabel class="btn-primary">
+          <input ngbButton type="radio" [value]="false"> Analytics
+        </label>
       </div>
+        <p>TESTING</p>
+    </div>
+  </div>
+  <div class="col col-lg-auto"></div>
+</div> -->
+  
+<!-- First Container -->
+<!-- <div class="container-fluid bg-1 text-center">
+  <h3 class="margin">Who Am I?</h3>
+  <img src="" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
+  <h3>I'm an adventurer</h3>
+</div> -->
+
+<!-- Second Container -->
+<div class="container-fluid bg-1 text-center">
+  <h3 class="margin">Welcome</h3>
+  <p>This is an Angular single-page app that serves as a front-end for several microservices written mostly in Scala, which do various fun things.</p>
+  <!-- <a href="#" class="btn btn-default btn-lg">
+    <span class="glyphicon glyphicon-search"></span> Search
+  </a> -->
+</div>
+
+<!-- <div class="container-fluid bg-2 text-center">
+  <p placement="bottom" ngbTooltip="Ayn Rand">&quot;What greater wealth is there than to own your life and to spend it on growing?&quot;</p>
+</div> -->
+
+<!-- Third Container (Grid) -->
+<div class="container-fluid bg-2 text-center">    
+  <h3 class="margin">Areas of Interest</h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <p>Software Architecture:  specializing in several different design patterns and programming paradigms.</p>
+      <!-- <img src="" class="img-responsive margin" style="width:100%" alt="Image"> -->
+    </div>
+    <div class="col-sm-4"> 
+      <p>Data Analytics:  business intelligence and various statistics applications, mostly in a Hadoop environment.</p>
+      <!-- <img src="" class="img-responsive margin" style="width:100%" alt="Image"> -->
+    </div>
+    <div class="col-sm-4"> 
+      <p>Containerization, mostly with OCI images and their deployment platforms like OKD/OpenShift and Kubernetes.</p>
+      <!-- <img src="" class="img-responsive margin" style="width:100%" alt="Image"> -->
     </div>
   </div>
 </div>
+
+<!-- Footer -->
+<footer class="container-fluid text-center">
+  <p>Bootstrap Theme Made By <a href="https://www.w3schools.com">www.w3schools.com</a></p> 
+</footer>
